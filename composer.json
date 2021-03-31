@@ -1,0 +1,29 @@
+{
+    "name": "wen-gg/laravel-helpers",
+    "description": "php laravel development helpers",
+    "type": "library",
+    "keywords": [
+        "php",
+        "helpers",
+        "laravel"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mosquito",
+            "email": "zwj1206_hi@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wengg\\LaravelHelpers\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "wen-gg/helpers": "^1.0"
+    },
+    "require-dev": {}
+}

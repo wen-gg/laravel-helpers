@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "be8d2c5b37a2ff4b5c0548aab7f4d10e",
+    "packages": [
+        {
+            "name": "wen-gg/helpers",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wen-gg/helpers.git",
+                "reference": "bc712fbc3446ebe098458b2bcae8e5a24b03a038"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wen-gg/helpers/zipball/bc712fbc3446ebe098458b2bcae8e5a24b03a038",
+                "reference": "bc712fbc3446ebe098458b2bcae8e5a24b03a038",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Wengg\\Helpers\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mosquito",
+                    "email": "zwj1206_hi@163.com"
+                }
+            ],
+            "description": "php development helpers",
+            "keywords": [
+                "helpers",
+                "php"
+            ],
+            "time": "2020-12-03T02:59:40+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
